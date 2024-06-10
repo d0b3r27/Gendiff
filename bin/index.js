@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 import gendiff from "../index.js";
 
-gendiff('./fixtures/file1.json', './fixtures/file2.json');
+gendiff('./__tests__/fixtures/file1.json', './__tests__/fixtures/file2.json');
