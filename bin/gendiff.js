@@ -11,6 +11,6 @@ program
   .option('-f, --format <type>', 'output format')
   .action((path1, path2) => {
     console.log(gendiff(path1, path2, program.opts().format));
-  })
+  });
 
 program.parse();
