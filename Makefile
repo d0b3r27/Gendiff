@@ -9,6 +9,3 @@ lint:
 
 test:
 	npm test
-
-gendiff:
-	node ./bin/gendiff.js

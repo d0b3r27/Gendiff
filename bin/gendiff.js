@@ -9,8 +9,8 @@ program
   .argument('<filepath1>')
   .argument('<filepath2>')
   .option('-f, --format <type>', 'output format')
-  .action((path1, path2) => {
-    console.log(gendiff(path1, path2, program.opts().format));
+  .action((filepath1, filepath2) => {
+    console.log(gendiff(filepath1, filepath2, program.opts().format));
   });
 
 program.parse();
