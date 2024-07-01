@@ -19,6 +19,7 @@ const gendiff = (filepath1, filepath2) => {
 
   const tree = buildTree(data1, data2);
   console.log('result', tree);
+  console.log('children', tree[0]);
   // return output(tree);
   console.log(stylish(tree));
 };

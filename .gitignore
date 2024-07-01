@@ -2,4 +2,4 @@
 *.log
 coverage
 .DS_Store
-/test.js
+/trial.js
