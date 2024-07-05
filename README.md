@@ -12,3 +12,6 @@
 
 Поиск различий между двумя плоскими json-файлами:
 https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if
+
+Поиск различий между двумя файлами со вложенной структурой:
+https://asciinema.org/a/mZtzHWKQhOgyIFu057Wn8N21U
