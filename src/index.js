@@ -14,14 +14,10 @@ const gendiff = (filepath1, filepath2) => {
 
   const data1 = getData(fullFilePath1);
   const data2 = getData(fullFilePath2);
-  // console.log('data1', data1);
-  // console.log('data2', data2);
 
   const tree = buildTree(data1, data2);
-  console.log('result', tree);
-  console.log('children', tree[0]);
-  // return output(tree);
-  console.log(stylish(tree));
+  return stylish(tree);
 };
 
 export default gendiff;
+export { getData };
