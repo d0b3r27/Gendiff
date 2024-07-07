@@ -1,0 +1,13 @@
+{"version": 2, "width": 120, "height": 30, "timestamp": 1720378373, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.019255, "o", "\u001b[?2004h\u001b[1;34mfrontend-project-46\u001b[m\u001b[32m (main)\u001b[00m $ "]
+[0.798753, "o", "gendiff "]
+[0.799011, "o", "-f 'plai"]
+[0.799656, "o", "n' ./__fixtures__/fi"]
+[0.800055, "o", "le3.json"]
+[0.800274, "o", " ./__f"]
+[0.800425, "o", "ixtures_"]
+[0.800778, "o", "_/file4.json"]
+[2.036529, "o", "\r\n\u001b[?2004l\r"]
+[2.17696, "o", "Property 'common.follow' was added with value: false\r\nProperty 'common.setting2' was removed\r\nProperty 'common.setting3' was updated. From true to null\r\nProperty 'common.setting4' was added with value: 'blah blah'\r\nProperty 'common.setting5' was added with value: [complex value]\r\nProperty 'common.setting6.doge.wow' was updated. From '' to 'so much'\r\nProperty 'common.setting6.ops' was added with value: 'vops'\r\nProperty 'group1.baz' was updated. From 'bas' to 'bars'\r\nProperty 'group1.nest' was updated. From [complex value] to 'str'\r\nProperty 'group2' was removed\r\nProperty 'group3' was added with value: [complex value]\r\n"]
+[2.187001, "o", "\u001b[?2004h\u001b[1;34mfrontend-project-46\u001b[m\u001b[32m (main)\u001b[00m $ "]
+[3.96244, "o", "\u001b[?2004l\r\r\nexit\r\n"]

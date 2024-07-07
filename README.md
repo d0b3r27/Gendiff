@@ -15,3 +15,6 @@ https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if
 
 Поиск различий между двумя файлами со вложенной структурой:
 https://asciinema.org/a/mZtzHWKQhOgyIFu057Wn8N21U
+
+Поиск различий между двумя файлами со вложенной структурой, плоский формат:
+https://asciinema.org/a/89GKAp39kFMggXQNgZuERrh1M
