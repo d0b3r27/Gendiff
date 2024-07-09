@@ -18,3 +18,6 @@ https://asciinema.org/a/mZtzHWKQhOgyIFu057Wn8N21U
 
 Поиск различий между двумя файлами со вложенной структурой, плоский формат:
 https://asciinema.org/a/89GKAp39kFMggXQNgZuERrh1M
+
+Поиск различий между двумя файлами со вложенной структурой, формат json:
+https://asciinema.org/a/7sMv3t4j0c3heLzmTATnLTePR

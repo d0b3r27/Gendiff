@@ -4,7 +4,6 @@
   "description": "[![Actions Status](https://github.com/d0b3r27/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/d0b3r27/frontend-project-46/actions)",
   "main": "./index.js",
   "bin": {
-    "func": "./bin/index.js",
     "gendiff": "./bin/gendiff.js"
   },
   "type": "module",
