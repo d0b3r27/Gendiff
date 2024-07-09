@@ -10,6 +10,14 @@
 ### Test Coverage Badge
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2883c36e47e674119b14/test_coverage)](https://codeclimate.com/github/d0b3r27/frontend-project-46/test_coverage)
 
+Учебный проект Хекслет, который выводит разницу между двумя файлами в заданном формате (stylish, plain или json)
+
+Установка:
+make install
+
+Использование:
+gendiff -f (формат вывода, по умолчанию stylish) 'путь к файлу1' 'путь к файлу 2'
+
 Поиск различий между двумя плоскими json-файлами:
 https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if
 
