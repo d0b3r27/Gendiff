@@ -18,19 +18,19 @@ const resultJson = fs.readFileSync(
   'utf8',
 );
 
-test('test stylish', () => {
+test('stylish', () => {
   expect(gendiff(file1Json, file2Json, 'stylish')).toBe(resultStylish);
   expect(gendiff(file1Yml, file2Yml, 'stylish')).toBe(resultStylish);
   expect(gendiff(file1Json, file2Yml, 'stylish')).toBe(resultStylish);
 });
 
-test('test plain', () => {
+test('plain', () => {
   expect(gendiff(file1Json, file2Json, 'plain')).toBe(resultFlat);
   expect(gendiff(file1Yml, file2Yml, 'plain')).toBe(resultFlat);
   expect(gendiff(file1Json, file2Yml, 'plain')).toBe(resultFlat);
 });
 
-test('test json', () => {
+test('json', () => {
   expect(gendiff(file1Json, file2Json, 'json')).toBe(resultJson);
   expect(gendiff(file1Yml, file2Yml, 'json')).toBe(resultJson);
   expect(gendiff(file1Json, file2Yml, 'json')).toBe(resultJson);
