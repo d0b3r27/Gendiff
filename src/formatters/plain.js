@@ -4,7 +4,7 @@ const isComplex = (node) => {
   if (_.isObject(node)) {
     return '[complex value]';
   }
-  if (node === true || node === false || node === null) {
+  if (node === true || node === false || node === null || _.isNumber(node)) {
     return node;
   }
   return `'${node}'`;
