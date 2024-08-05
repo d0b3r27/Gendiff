@@ -11,20 +11,22 @@ const isComplex = (node) => {
 };
 
 const plain = (tree) => {
-  const iter = (nodes, key) => {
-    const result = nodes.map((node) => {
-      const newProperty = _.trim(`${key}.${node.key}`, '.');
-      if (node.type === 'added') {
-        return `Property '${newProperty}' was added with value: ${isComplex(node.value)}`;
+  const iter = (nodes, keyBefore) => {
+    const result = nodes.map(({
+      key, type, children, value, value1, value2,
+    }) => {
+      const newProperty = _.trim(`${keyBefore}.${key}`, '.');
+      if (type === 'added') {
+        return `Property '${newProperty}' was added with value: ${isComplex(value)}`;
       }
-      if (node.type === 'deleted') {
+      if (type === 'deleted') {
         return `Property '${newProperty}' was removed`;
       }
-      if (node.type === 'changed') {
-        return `Property '${newProperty}' was updated. From ${isComplex(node.value1)} to ${isComplex(node.value2)}`;
+      if (type === 'changed') {
+        return `Property '${newProperty}' was updated. From ${isComplex(value1)} to ${isComplex(value2)}`;
       }
-      if (node.type === 'nested') {
-        return `${iter(node.children, newProperty)}`;
+      if (type === 'nested') {
+        return `${iter(children, newProperty)}`;
       }
       return '';
     }).filter((node) => node !== '');

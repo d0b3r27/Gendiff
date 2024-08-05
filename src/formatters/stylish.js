@@ -22,20 +22,22 @@ const stringify = (value, resDepth) => {
 
 const stylish = (tree) => {
   const iter = (nodes, depth) => {
-    const result = nodes.map((node) => {
-      if (node.type === 'nested') {
-        return `  ${currentIndent(depth)}${node.key}: ${iter(node.children, depth + 2)}`;
+    const result = nodes.map(({
+      key, type, children, value, value1, value2,
+    }) => {
+      if (type === 'nested') {
+        return `  ${currentIndent(depth)}${key}: ${iter(children, depth + 2)}`;
       }
-      if (node.type === 'deleted') {
-        return `${currentIndent(depth)}- ${node.key}: ${stringify(node.value, depth)}`;
+      if (type === 'deleted') {
+        return `${currentIndent(depth)}- ${key}: ${stringify(value, depth)}`;
       }
-      if (node.type === 'added') {
-        return `${currentIndent(depth)}+ ${node.key}: ${stringify(node.value, depth)}`;
+      if (type === 'added') {
+        return `${currentIndent(depth)}+ ${key}: ${stringify(value, depth)}`;
       }
-      if (node.type === 'changed') {
-        return `${currentIndent(depth)}- ${node.key}: ${stringify(node.value1, depth)}\n${currentIndent(depth)}+ ${node.key}: ${stringify(node.value2, depth)}`;
+      if (type === 'changed') {
+        return `${currentIndent(depth)}- ${key}: ${stringify(value1, depth)}\n${currentIndent(depth)}+ ${key}: ${stringify(value2, depth)}`;
       }
-      return `  ${currentIndent(depth)}${node.key}: ${stringify(node.value, depth)}`;
+      return `  ${currentIndent(depth)}${key}: ${stringify(value, depth)}`;
     });
     return ['{', ...result, `${bracketIndent(depth)}}`].join('\n');
   };
