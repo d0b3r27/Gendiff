@@ -12,21 +12,17 @@
 
 Учебный проект Хекслет, который выводит разницу между двумя файлами в заданном формате (stylish, plain или json)
 
-###Установка:
+### Установка:
 make install
 
-###Использование:
+### Использование:
 gendiff -f (формат вывода, по умолчанию stylish) 'путь к файлу1' 'путь к файлу 2'
 
-###Примеры работы:
-Поиск различий между двумя плоскими json-файлами:
-https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if
+### Примеры работы:
+*[Поиск различий между двумя плоскими json-файлами:]*(https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if)
 
-Поиск различий между двумя файлами со вложенной структурой:
-https://asciinema.org/a/mZtzHWKQhOgyIFu057Wn8N21U
+*[Поиск различий между двумя файлами со вложенной структурой:]*(https://asciinema.org/a/mZtzHWKQhOgyIFu057Wn8N21U)
 
-Поиск различий между двумя файлами со вложенной структурой, плоский формат:
-https://asciinema.org/a/89GKAp39kFMggXQNgZuERrh1M
+*[Поиск различий между двумя файлами со вложенной структурой, плоский формат:]*(https://asciinema.org/a/89GKAp39kFMggXQNgZuERrh1M)
 
-Поиск различий между двумя файлами со вложенной структурой, формат json:
-https://asciinema.org/a/7sMv3t4j0c3heLzmTATnLTePR
+*[Поиск различий между двумя файлами со вложенной структурой, формат json:]*(https://asciinema.org/a/7sMv3t4j0c3heLzmTATnLTePR)
