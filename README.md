@@ -10,7 +10,7 @@
 ### Test Coverage Badge
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2883c36e47e674119b14/test_coverage)](https://codeclimate.com/github/d0b3r27/frontend-project-46/test_coverage)
 
-# Учебный проект Хекслет, который выводит разницу между двумя файлами в заданном формате (stylish, plain или json)
+## Учебный проект Хекслет, который выводит разницу между двумя файлами в заданном формате (stylish, plain или json)
 
 ### Установка:
 make install
