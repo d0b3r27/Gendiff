@@ -11,10 +11,11 @@ make install
 ### Использование:
 gendiff [options] 'filepath1' 'filepath2'
 
-  Options:
-    -V, --version        версия
-    -f, --format [type]  указание формата вывода (по умолчанию stylish)
-    -h, --help           справка
+  Options:   
+    -V, --version        версия   
+    -f, --format [type]  указание формата вывода (по умолчанию stylish)   
+    -h, --help           справка   
+    
 
 ### Примеры работы:
 [Поиск различий между двумя плоскими json-файлами:](https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if)
