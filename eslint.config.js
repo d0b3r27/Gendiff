@@ -16,6 +16,7 @@ const compat = new FlatCompat({
 
 export default [
   {
+    ignores: [/tests/],
     languageOptions: {
       globals: {
         ...globals.node,
