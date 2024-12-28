@@ -9,7 +9,7 @@
 make install
 
 ### Использование:
-gendiff [options] <filepath1> <filepath2>
+gendiff [options] 'filepath1' 'filepath2'
 
   Options:
     -V, --version        версия
