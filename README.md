@@ -17,7 +17,11 @@ gendiff [options] 'filepath1' 'filepath2'
     -V, --version        версия   
     -f, --format 'type'  указание формата вывода (по умолчанию stylish), plain или json   
     -h, --help           справка   
-    
+
+Пример:
+```bash
+gendiff -f plain /file1 /file2
+```
 
 ### Примеры работы:
 [Поиск различий между двумя плоскими json-файлами](https://asciinema.org/a/ecoZSxuePQA1gIfSLRobXH3if)
