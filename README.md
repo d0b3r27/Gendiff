@@ -13,7 +13,7 @@ gendiff [options] 'filepath1' 'filepath2'
 
   Options:   
     -V, --version        версия   
-    -f, --format 'type'  указание формата вывода (по умолчанию stylish)   
+    -f, --format 'type'  указание формата вывода (по умолчанию stylish), plain или json   
     -h, --help           справка   
     
 
