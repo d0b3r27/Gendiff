@@ -6,7 +6,9 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2883c36e47e674119b14/test_coverage)](https://codeclimate.com/github/d0b3r27/frontend-project-46/test_coverage)
 
 ### Установка:
-```make install```
+```bash
+make install
+```
 
 ### Использование:
 gendiff [options] 'filepath1' 'filepath2'
